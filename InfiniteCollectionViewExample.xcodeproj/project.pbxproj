@@ -12,6 +12,17 @@
 		243C161621DE2B7700C9AF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243C161421DE2B7700C9AF4A /* Main.storyboard */; };
 		243C161821DE2BD700C9AF4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243C161721DE2BD700C9AF4A /* Assets.xcassets */; };
 		243C161B21DE2BD700C9AF4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243C161921DE2BD700C9AF4A /* LaunchScreen.storyboard */; };
+		243C162421DE358500C9AF4A /* VCInfiniteCollectionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C162321DE358500C9AF4A /* VCInfiniteCollectionViewExample.swift */; };
+		243C162721DE365900C9AF4A /* Product_handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C162621DE365900C9AF4A /* Product_handler.swift */; };
+		243C163021DE3BF300C9AF4A /* HomeProductGridTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243C162A21DE3BF300C9AF4A /* HomeProductGridTableViewCell.xib */; };
+		243C163121DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243C162B21DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.xib */; };
+		243C163221DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243C162C21DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.xib */; };
+		243C163321DE3BF300C9AF4A /* HomeProductGridTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C162D21DE3BF300C9AF4A /* HomeProductGridTableViewCell.swift */; };
+		243C163421DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C162E21DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.swift */; };
+		243C163521DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C162F21DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.swift */; };
+		243C163721DE3C1600C9AF4A /* InfiniteCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C163621DE3C1600C9AF4A /* InfiniteCollectionView.swift */; };
+		243C163A21DE3E5800C9AF4A /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243C163821DE3E5700C9AF4A /* ProductCollectionViewCell.xib */; };
+		243C163B21DE3E5800C9AF4A /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C163921DE3E5700C9AF4A /* ProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		243C161721DE2BD700C9AF4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		243C161A21DE2BD700C9AF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243C161C21DE2BD700C9AF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243C162321DE358500C9AF4A /* VCInfiniteCollectionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCInfiniteCollectionViewExample.swift; sourceTree = "<group>"; };
+		243C162621DE365900C9AF4A /* Product_handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product_handler.swift; sourceTree = "<group>"; };
+		243C162A21DE3BF300C9AF4A /* HomeProductGridTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeProductGridTableViewCell.xib; sourceTree = "<group>"; };
+		243C162B21DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NonInfiniteCVTableViewCell.xib; sourceTree = "<group>"; };
+		243C162C21DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCategoryTitleTableViewCell.xib; sourceTree = "<group>"; };
+		243C162D21DE3BF300C9AF4A /* HomeProductGridTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProductGridTableViewCell.swift; sourceTree = "<group>"; };
+		243C162E21DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonInfiniteCVTableViewCell.swift; sourceTree = "<group>"; };
+		243C162F21DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCategoryTitleTableViewCell.swift; sourceTree = "<group>"; };
+		243C163621DE3C1600C9AF4A /* InfiniteCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteCollectionView.swift; sourceTree = "<group>"; };
+		243C163821DE3E5700C9AF4A /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		243C163921DE3E5700C9AF4A /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,57 @@
 		243C160F21DE2B7500C9AF4A /* InfiniteCollectionViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				243C162921DE3BB200C9AF4A /* Libraries */,
+				243C162821DE3BA300C9AF4A /* Views */,
+				243C162521DE35A400C9AF4A /* Models */,
+				243C162221DE2E2200C9AF4A /* Controllers */,
 				243C161021DE2B7500C9AF4A /* AppDelegate.swift */,
-				243C161221DE2B7600C9AF4A /* ViewController.swift */,
 				243C161421DE2B7700C9AF4A /* Main.storyboard */,
 				243C161721DE2BD700C9AF4A /* Assets.xcassets */,
 				243C161921DE2BD700C9AF4A /* LaunchScreen.storyboard */,
 				243C161C21DE2BD700C9AF4A /* Info.plist */,
 			);
 			path = InfiniteCollectionViewExample;
+			sourceTree = "<group>";
+		};
+		243C162221DE2E2200C9AF4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				243C161221DE2B7600C9AF4A /* ViewController.swift */,
+				243C162321DE358500C9AF4A /* VCInfiniteCollectionViewExample.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		243C162521DE35A400C9AF4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				243C162621DE365900C9AF4A /* Product_handler.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		243C162821DE3BA300C9AF4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				243C163921DE3E5700C9AF4A /* ProductCollectionViewCell.swift */,
+				243C163821DE3E5700C9AF4A /* ProductCollectionViewCell.xib */,
+				243C162F21DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.swift */,
+				243C162C21DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.xib */,
+				243C162D21DE3BF300C9AF4A /* HomeProductGridTableViewCell.swift */,
+				243C162A21DE3BF300C9AF4A /* HomeProductGridTableViewCell.xib */,
+				243C162E21DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.swift */,
+				243C162B21DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		243C162921DE3BB200C9AF4A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				243C163621DE3C1600C9AF4A /* InfiniteCollectionView.swift */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +187,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243C163021DE3BF300C9AF4A /* HomeProductGridTableViewCell.xib in Resources */,
 				243C161B21DE2BD700C9AF4A /* LaunchScreen.storyboard in Resources */,
+				243C163121DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.xib in Resources */,
+				243C163A21DE3E5800C9AF4A /* ProductCollectionViewCell.xib in Resources */,
+				243C163221DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.xib in Resources */,
 				243C161821DE2BD700C9AF4A /* Assets.xcassets in Resources */,
 				243C161621DE2B7700C9AF4A /* Main.storyboard in Resources */,
 			);
@@ -137,6 +206,13 @@
 			files = (
 				243C161321DE2B7600C9AF4A /* ViewController.swift in Sources */,
 				243C161121DE2B7500C9AF4A /* AppDelegate.swift in Sources */,
+				243C163521DE3BF300C9AF4A /* HomeCategoryTitleTableViewCell.swift in Sources */,
+				243C163421DE3BF300C9AF4A /* NonInfiniteCVTableViewCell.swift in Sources */,
+				243C163721DE3C1600C9AF4A /* InfiniteCollectionView.swift in Sources */,
+				243C162721DE365900C9AF4A /* Product_handler.swift in Sources */,
+				243C162421DE358500C9AF4A /* VCInfiniteCollectionViewExample.swift in Sources */,
+				243C163B21DE3E5800C9AF4A /* ProductCollectionViewCell.swift in Sources */,
+				243C163321DE3BF300C9AF4A /* HomeProductGridTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
